@@ -6,8 +6,8 @@ A Computer Science undergraduate at the University of Moratuwa specializing in *
 I am passionate about solving complex problems and building **high-quality, scalable applications**, and I am currently expanding my skill set into **DevOps and cloud technologies**.  
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=dpiyumal2319&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/dpiyumal2319?label=Followers&style=social" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/badge/Profile%20Views-100%2B-blue" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/dpiyumal2319?label=Followers&style=flat" alt="GitHub Followers"/>
 </p>
 
 </div>
@@ -64,12 +64,12 @@ I am passionate about solving complex problems and building **high-quality, scal
 ## 📊 GitHub Analytics  
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dpiyumal2319&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dpiyumal2319&layout=compact&theme=transparent&hide_border=true" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=dpiyumal2319&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dpiyumal2319&layout=compact&theme=transparent&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=dpiyumal2319&theme=transparent&hide_border=true" alt="Contribution Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dpiyumal2319&theme=transparent&hide_border=true" alt="Contribution Streak"/>
 </p>
 
 ---
@@ -77,7 +77,7 @@ I am passionate about solving complex problems and building **high-quality, scal
 ## 📈 Contribution Graph  
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.demolab.com/graph?username=dpiyumal2319&theme=react-dark&hide_border=true" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dpiyumal2319&theme=react-dark&hide_border=true" alt="Contribution Graph"/>
 </p>
 
 ---
