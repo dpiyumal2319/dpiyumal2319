@@ -17,7 +17,6 @@ I build reliable backend and cloud-native systems with a focus on scalability, m
 ## Selected Work
 - [**Event Ticketing & Seating Platform**](https://github.com/orgs/Evently-Event-Management) — CQRS + event-driven microservices, Kafka + Debezium, Redis, polyglot services
 - [**KubeStock**](https://github.com/KubeStock-DevOps-project) — cloud-native inventory platform with GitOps, IaC, observability, and zero-trust concepts
-- [**AI Stock Screening & Risk Analysis**](https://github.com/Intelligent-Advisor-Sem-4) — multi-layer platform with CI/CD and production-oriented deployment
 
 ## Contact
 - LinkedIn: [dasun-piyumal](https://www.linkedin.com/in/dasun-piyumal/)
