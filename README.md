@@ -5,8 +5,8 @@ Software Engineering Intern at WSO2 · Undergraduate at University of Moratuwa
 I build reliable backend and cloud-native systems with a focus on scalability, maintainability, and clean architecture.
 
 ## Current
-- Software Engineering Intern at **WSO2** (federated DevPortal and control-plane workflows)
-- BSc (Hons) in Computer Science and Engineering, University of Moratuwa (**CGPA: 3.7**, Dean’s List)
+- Software Engineering Intern at **WSO2**
+- BSc (Hons) in Computer Science and Engineering, University of Moratuwa
 
 ## Core Strengths
 - Backend engineering: **Java, Spring Boot, Node.js, Go**
