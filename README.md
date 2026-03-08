@@ -20,4 +20,8 @@ I build reliable backend and cloud-native systems with a focus on scalability, m
 
 ## Contact
 - LinkedIn: [dasun-piyumal](https://www.linkedin.com/in/dasun-piyumal/)
-- GitHub: [dpiyumal2319](https://github.com/dpiyumal2319)
+- Email: [w.piyumal2319@gmail.com](mailto:w.piyumal2319@gmail.com)
+
+## Get to Know Me
+- Instagram: [@dasun_piyumal](https://www.instagram.com/dasun_piyumal/)
+- Pexels: [dasun-piyumal-896408286](https://www.pexels.com/@dasun-piyumal-896408286/)
