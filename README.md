@@ -19,7 +19,7 @@ I build reliable backend and cloud-native systems with a focus on scalability, m
 - [**KubeStock**](https://github.com/KubeStock-DevOps-project): cloud-native inventory platform with GitOps, IaC, observability, and zero-trust concepts
 
 ## CV
-- [View CV (PDF)](./cv/cv.pdf) · [LaTeX source](./cv/cv.tex)
+- [View CV (PDF)](./cv/cv.pdf)
 
 ## Contact
 - LinkedIn: [dasun-piyumal](https://www.linkedin.com/in/dasun-piyumal/)
