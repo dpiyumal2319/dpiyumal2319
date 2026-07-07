@@ -1,0 +1,398 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot,
+    top=1.5 cm,
+    bottom=1.3 cm,
+    left=1.7 cm,
+    right=1.7 cm,
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0,0,0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Dasun Piyumal Wijethunga's CV},
+    pdfauthor={Dasun Piyumal Wijethunga},
+    pdfcreator={LaTeX},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+\usepackage{setspace}
+\setstretch{1.1}
+
+% Save original \href
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{\textit{\underline{#2}}}}
+
+% Ensure machine-readable / ATS parsable PDF
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% General settings
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0 cm + 0.00001 cm}{0 cm + 0.00001 cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+}
+
+\let\hrefWithoutArrow\href
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Dasun Piyumal Wijethunga
+
+        \vspace{5 pt}
+
+        \normalsize
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:w.piyumal2319@gmail.com}{w.piyumal2319@gmail.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+94-77-918-8749}{077 918 8749}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/dasun-piyumal/}{linkedin.com/in/dasun-piyumal}}%
+        \\
+        \mbox{\hrefWithoutArrow{https://github.com/dpiyumal2319}{github.com/dpiyumal2319}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+    \section{Summary}
+    \begin{onecolentry}
+        Final-year Computer Science undergraduate at the University of Moratuwa with strong foundations in software engineering, distributed systems, and cloud-native application development. Hands-on experience in backend engineering, full-stack systems, CI/CD, containerization, Kubernetes, infrastructure as code, observability, and secure system design. Interested in building reliable, scalable, and maintainable systems, with a proven record of academic excellence and strong project execution.
+    \end{onecolentry}
+
+    \section{Education}
+    \begin{twocolentry}{
+        2023 -- Present
+    }
+        \textbf{University of Moratuwa}, BSc (Hons) in Computer Science and Engineering
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        \begin{highlights}
+            \item CGPA: \textbf{3.7} (6 semesters); Dean's List (Semesters 1--3)
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{
+        2019 -- 2022
+    }
+        \textbf{Maliyadeva College, Kurunegala}, Physical Science (A/L)
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Subjects: Mathematics A, Physics A, Chemistry A
+            \item Achieved a Z-score of 2.5805 and an island rank of 93
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Experience}
+    \begin{twocolentry}{
+    Nov~2025 -- May~2026
+    }
+    \textbf{WSO2}, Software Engineering Intern
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        Drove the research and design of Application Federation for WSO2 API Manager (4.6 to 4.7), extending the product to manage APIs deployed on external gateways such as AWS, Azure, and Kong through a unified control plane.
+        \begin{highlights}
+            \item \textbf{R\&D and Design:} Explored three architectural approaches across successive iterations, defending each in design reviews with senior engineers and a director, and converged on a tradeoff-driven federation model
+            \item \textbf{Federated API Keys:} Designed federated credential issuance and subscription mapping between WSO2 usage plans and remote gateway constructs
+            \item \textbf{Product Engineering:} Extended a large, fast-moving codebase spanning the Publisher, Developer Portal, Admin Portal, and API Gateway, with data and API modeling for a real feature
+            \item \textbf{Release Testing:} Found and filed reproducible product defects during federation release testing, including an Azure federated-deployment failure for API names with spaces and a discovery-path name-validation mismatch against the deploy path
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Projects}
+
+    \begin{twocolentry}{
+        Oct~2025 -- Feb~2026
+    }
+        \textbf{KubeStock: Cloud-Native Inventory Management System} \\
+        \href{https://github.com/KubeStock-DevOps-project}{GitHub Repository}
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        Designed and deployed a cloud-native inventory and stock management platform through a full CI/CD workflow onto Kubernetes infrastructure, with emphasis on automation, observability, scalability, and zero-trust security concepts.
+        \begin{highlights}
+            \item \textbf{CI/CD and GitOps:} Implemented automated delivery using \textbf{GitHub Actions} and \textbf{ArgoCD} for Kubernetes-based deployments
+            \item \textbf{Infrastructure as Code:} Provisioned infrastructure using modular \textbf{Terraform}
+            \item \textbf{Scalability and Reliability:} Built deployment workflows with auto-scaling and high-availability patterns
+            \item \textbf{Observability:} Implemented monitoring with \textbf{Prometheus} and \textbf{Grafana}, and centralized logging with \textbf{Loki}
+            \item \textbf{Security:} Applied zero-trust concepts across application and infrastructure layers
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{twocolentry}{
+        May~2025 -- Nov~2025
+    }
+        \textbf{Event Ticketing \& Seating Platform (Microservices Architecture)} \\
+        \href{https://github.com/orgs/Evently-Event-Management}{GitHub Repository}
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        Engineered a distributed platform for event creation, seating management, and ticket sales, designed for high performance, scalability, and reliability. The project received an \textbf{A+} grade.
+        \begin{highlights}
+            \item \textbf{Architected a CQRS and Event-Driven System:} Implemented CQRS with PostgreSQL for command-side persistence and MongoDB for denormalized read models
+            \item \textbf{Streaming and Consistency:} Used \textbf{Debezium} for CDC and \textbf{Kafka} for transactional event propagation
+            \item \textbf{Performance Engineering:} Leveraged \textbf{Redis} for distributed locking and service-level caching to improve consistency and reduce latency
+            \item \textbf{Polyglot Microservices:} Core business logic implemented in \textbf{Spring Boot}; high-concurrency worker implemented in \textbf{Go}
+            \item \textbf{Automated Scheduling and Security:} Used \textbf{AWS EventBridge Scheduler}, \textbf{SQS}, \textbf{Keycloak}, and \textbf{Spring Cloud Gateway WebFlux}
+            \item \textbf{Deployment:} Containerized with \textbf{Docker} and designed for \textbf{Kubernetes} deployment with \textbf{Terraform}
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{
+        Jan~2025 -- Apr~2025
+    }
+        \textbf{AI-Powered Stock Screening \& Risk Analysis Platform} \\
+        \href{https://github.com/Intelligent-Advisor-Sem-4}{GitHub Repository}
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        Designed, developed, and deployed a multi-layered risk analysis platform, handling backend development, CI/CD, and cloud infrastructure.
+        \begin{highlights}
+            \item \textbf{CI/CD Pipeline:} Built \textbf{GitHub Actions} workflows for build, test, and deployment on main branch pushes
+            \item \textbf{Frontend Development:} Built with \textbf{Next.js} using Server-Side Rendering (SSR) for improved SEO and initial load performance
+            \item \textbf{Data Ingestion \& Analysis:} Used \texttt{yfinance} for market data and Google Gemini API for sentiment analysis
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{
+        Dec~2024 -- Mar~2025
+    }
+        \textbf{Patient and Inventory Management System (Freelance)} \\
+        \href{https://github.com/Color-Novels/PMS}{GitHub Repository}
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        Architected, developed, and deployed a secure, high-performance patient management system for a freelance client.
+        \begin{highlights}
+            \item \textbf{Secure AWS Cloud Architecture:} Designed a multi-tier network with public/private subnets, bastion host access, and isolated PostgreSQL deployment
+            \item \textbf{Containerized SSR Deployment:} Deployed a \textbf{Next.js} SSR application in \textbf{Docker} on \textbf{AWS EC2}
+            \item \textbf{Automated CI/CD:} Built a \textbf{GitHub Actions} pipeline for build, test, and deployment
+            \item \textbf{Application Security:} Implemented RBAC and JWT-based authentication
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \section{Technologies}
+    \begin{onecolentry}
+        \textbf{DevOps \& Cloud:} Docker, Kubernetes (K8s), Terraform, Ansible, GitHub Actions, ArgoCD, Prometheus, Grafana, Loki, AWS, Bash
+
+        \vspace{0.2 cm}
+
+        \textbf{Backend:} Spring Boot (MVC and WebFlux), Node.js, Express, FastAPI, RESTful APIs
+
+        \vspace{0.2 cm}
+
+        \textbf{Databases \& Messaging:} PostgreSQL, MySQL, MongoDB, Redis, Kafka
+
+        \vspace{0.2 cm}
+
+        \textbf{Frontend:} Next.js, React, TypeScript
+
+        \vspace{0.2 cm}
+
+        \textbf{Programming Languages:} Java, JavaScript, Python, Go
+
+        \vspace{0.2 cm}
+
+        \textbf{Operating Systems \& Tools:} Linux, Git
+    \end{onecolentry}
+
+    \section{Certifications}
+    \begin{twocolentry}{
+        Issued Mar 2026
+    }
+        \textbf{Linux Systems Administration and DevOps Engineering} -- WSO2
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        Completed training in Linux administration, networking, virtualization, Docker, Kubernetes, infrastructure as code, log management, security concepts, Zero Trust Architecture, IAM, Ansible, platform engineering, IT law, business continuity, and disaster recovery.
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{
+        Issued Feb 2025
+    }
+        \textbf{GitHub Foundations}
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        \href{https://www.coursera.org/account/accomplishments/verify/2JRCDBLVWHG5}{View Credential}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{
+        Issued May 2024
+    }
+        \textbf{Introduction to Front-End Development} -- Meta
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+
+    \begin{onecolentry}
+        \href{https://www.coursera.org/account/accomplishments/records/PUYQP4GWPDN6}{View Credential}
+    \end{onecolentry}
+
+    \section{Extra}
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item \textbf{Cloud-Native and DevOps Exposure:} Hands-on work in CI/CD, Kubernetes, IaC, observability, and secure infrastructure design through academic, training, and project work
+            \item \textbf{Kubernetes Proficiency:} Experience with cluster setup, deployments, scaling, monitoring, and service orchestration
+            \item \textbf{Active GitHub Contributor:} Strong record of continuous hands-on development and project-based technical work
+            \item \textbf{Communication and Collaboration:} Able to communicate technical ideas clearly and work effectively in team-based engineering environments
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{References}
+    \begin{onecolentry}
+        \begin{minipage}[t]{0.48\textwidth}
+            \textbf{Mr. Sampath Rajapaksha} \\
+            Technical Lead, WSO2 \\
+            Internship Supervisor \\
+            \href{tel:+94-71-731-3761}{071 731 3761} \\
+            \href{mailto:sampath@wso2.com}{sampath@wso2.com}
+        \end{minipage}%
+        \hfill
+        \begin{minipage}[t]{0.48\textwidth}
+            \textbf{Mr. Krishan Shamod} \\
+            Senior DevOps Engineer, Sysco \\
+            \href{tel:+94-71-362-7740}{071 362 7740} \\
+            \href{mailto:Krishan.Shamod@sysco.com}{Krishan.Shamod@sysco.com}
+        \end{minipage}
+    \end{onecolentry}
+
+\end{document}
