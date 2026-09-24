@@ -15,7 +15,7 @@ I build reliable backend and cloud-native systems with a focus on scalability, m
 
 ## Current
 - Final-year BSc (Hons) in Computer Science and Engineering, University of Moratuwa (CGPA 3.7, 6 semesters)
-- Software Engineering Intern at **WSO2** (Nov 2025 to May 2026): Application Federation for WSO2 API Manager
+- Ex Software Engineering Intern at **WSO2** (Nov 2025 to May 2026): Application Federation for WSO2 API Manager
 
 ## Core Strengths
 - Backend engineering: **Java, Spring Boot, Node.js, Go**
