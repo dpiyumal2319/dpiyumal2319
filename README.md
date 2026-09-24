@@ -4,6 +4,15 @@ Final-year Computer Science undergraduate at University of Moratuwa, ex Software
 
 I build reliable backend and cloud-native systems with a focus on scalability, maintainability, and clean architecture.
 
+## Client work
+
+<table>
+  <tr>
+    <td width="112"><a href="https://github.com/solyxlabs"><img src="./assets/solyxlabs-avatar.png" width="88" alt="Solyxlabs logo" /></a></td>
+    <td><strong><a href="https://github.com/solyxlabs">Solyxlabs</a></strong><br />Websites, digital products, and business tools built for clients.<br /><a href="https://solyxlabs.com/#our-work">Explore client projects</a> · <a href="https://solyxlabs.com">Visit the website</a></td>
+  </tr>
+</table>
+
 ## Current
 - Final-year BSc (Hons) in Computer Science and Engineering, University of Moratuwa (CGPA 3.7, 6 semesters)
 - Software Engineering Intern at **WSO2** (Nov 2025 to May 2026): Application Federation for WSO2 API Manager
@@ -15,8 +24,6 @@ I build reliable backend and cloud-native systems with a focus on scalability, m
 - Full-stack delivery: **React, Next.js, TypeScript**
 
 ## Selected Work
-- [**Solyxlabs**](https://github.com/solyxlabs): websites, digital products, and business tools for clients. [Explore selected projects](https://solyxlabs.com/#our-work).
-
 - [**Event Ticketing & Seating Platform**](https://github.com/orgs/Evently-Event-Management): CQRS + event-driven microservices, Kafka + Debezium, Redis, polyglot services
 - [**KubeStock**](https://github.com/KubeStock-DevOps-project): cloud-native inventory platform with GitOps, IaC, observability, and zero-trust concepts
 
