@@ -15,6 +15,8 @@ I build reliable backend and cloud-native systems with a focus on scalability, m
 - Full-stack delivery: **React, Next.js, TypeScript**
 
 ## Selected Work
+- [**Solyxlabs**](https://github.com/solyxlabs): websites, digital products, and business tools for clients. [Explore selected projects](https://solyxlabs.com/#our-work).
+
 - [**Event Ticketing & Seating Platform**](https://github.com/orgs/Evently-Event-Management): CQRS + event-driven microservices, Kafka + Debezium, Redis, polyglot services
 - [**KubeStock**](https://github.com/KubeStock-DevOps-project): cloud-native inventory platform with GitOps, IaC, observability, and zero-trust concepts
 
